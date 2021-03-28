@@ -1,0 +1,295 @@
+@media only screen and (max-width: 500px) {
+  .socila-share-grid-item li {
+    margin: 0 1rem !important;
+  }
+  .trf-right-container {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .logo img {
+    height: 20px;
+    width: 65px;
+  }
+
+  .menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 2.8rem;
+  }
+  .mobile-menu ion-icon {
+    font-size: 5rem;
+    color: #fff;
+  }
+
+  .hero-next {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding-top: 5rem;
+    max-height: 67rem;
+    height: 100%;
+  }
+  .hero-img {
+    text-align: center;
+  }
+  .hero-img img {
+    height: 2.5rem;
+    width: 10rem;
+  }
+  .hero-left-grid-item h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+  .hero-left-grid-item hr {
+    margin-bottom: 0;
+  }
+  .hero-left-grid-item #hero-para {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  .form-title {
+    height: 1rem;
+    font-size: 1.8rem;
+  }
+  .contact-form form {
+    padding: 0;
+  }
+
+  .hero-right-grid .contact-form {
+    max-width: 100%;
+    max-height: 22rem;
+    height: 100%;
+    float: left;
+  }
+  .submit-btn {
+    max-width: 100%;
+  }
+  .downld-btn {
+    text-align: center;
+  }
+
+  /* Social Share */
+  .social-share-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .socila-share-grid-item {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  .socila-share-grid-item p {
+    font-size: 1.4rem;
+  }
+  .socila-share-grid-item ul {
+    padding: 0;
+  }
+  .socila-share-grid-item li {
+    margin: 0 3%;
+  }
+  .socila-share-grid-item li a i {
+    font-size: 24px;
+  }
+  .social-share-hr {
+    display: none;
+  }
+
+  /* transitioning-effect */
+
+  .transitioning-effect {
+    padding: 3rem 0;
+    margin-top: 9rem;
+  }
+
+  .transition-effect-grid {
+    grid-template-columns: 1fr;
+  }
+  .tre-grid-item img {
+    margin: 0 auto;
+  }
+  .tre-all-btn {
+    margin-right: 0 !important;
+  }
+  .trf-right-part {
+    margin-left: 2.5rem !important;
+  }
+  .trf-right-container {
+    padding: 2rem 0;
+  }
+  .trf-right-container .fp {
+    margin-bottom: 0 !important;
+  }
+  .fp-second-para {
+    margin-top: 1rem;
+  }
+
+  .download-btn {
+    margin-top: 2rem;
+  }
+  .download-btn a {
+    padding: 1rem 2rem;
+  }
+
+  /* Sub List Section */
+  .sub-list {
+    padding: 3.5rem 0;
+  }
+
+  .sublist-grid {
+    grid-template-columns: 1fr;
+  }
+  .hr-row {
+    border-top: 2px solid orange;
+    margin: 0.8rem 0;
+  }
+  .sublist-grid-item {
+    margin: 0 auto;
+  }
+  .sublist-grid-item .para {
+    margin: 1.8rem 0;
+  }
+  .sbr-right .image img {
+    padding: 1.5rem;
+  }
+
+  /* Service */
+  .service {
+    padding: 3.3rem 0;
+  }
+  .service-title {
+    font-size: 2.6rem;
+  }
+  .service .hr-row {
+    margin: 0.8rem auto;
+  }
+  .service-bt-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-title-des {
+    margin: 3rem 0;
+  }
+  .service-bt h4 {
+    margin: 2rem 0;
+  }
+
+  /* pricing */
+  .pricing {
+    padding: 3.3rem 0;
+  }
+  .pricing .pricing-hr {
+    margin: 2rem auto;
+  }
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+  .pricing-para {
+    margin-bottom: 0;
+  }
+  .first-pricing-grid-item {
+    margin: 3rem auto;
+    height: 48rem !important;
+  }
+
+  .fpg-grid-head hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .fpg-grid-head img {
+    margin: 1.5rem 0;
+  }
+  .fpg-grid-head p {
+    color: #fff;
+  }
+  .spg-text {
+    padding-top: 2rem;
+  }
+
+  .second-pricing-grid-item {
+    height: 52rem !important;
+  }
+
+  .customer-review {
+    padding: 1.3rem 0;
+  }
+  .customer-rv-des {
+    margin: 2rem 0;
+    margin-bottom: 2rem !important;
+  }
+  .customer-review-griditem {
+    margin-right: 0;
+  }
+  .srv-bt-manager {
+    text-align: left;
+    margin: 0;
+  }
+  .customer-details h4 {
+    margin: 0;
+  }
+  .profilewithname {
+    margin: 2rem 0;
+  }
+  .stylish-axure {
+    padding: 4rem 0;
+  }
+
+  .stylish-axure h2 {
+    color: #fff;
+    font-size: 2.8rem;
+  }
+  .stylish-axure hr {
+    margin: 0.8rem auto;
+  }
+
+  /* Contact Us Start */
+  .contact-us-section {
+    padding: 2rem 0;
+  }
+  .contact-hr {
+    margin: 0.8rem auto !important;
+  }
+  .contact-title-des {
+    margin-bottom: 5rem;
+  }
+  .contact-us-grid {
+    grid-template-columns: 1fr;
+  }
+  .cts-grid-item-2 textarea {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .socila-share-grid-item li {
+    margin: 0 3rem;
+  }
+  .socila-share-grid-item p {
+    font-size: 1.4rem;
+  }
+  .sbr-right .image img {
+    padding: 1.5rem;
+  }
+  .first-pricing-grid-item {
+    width: 28rem;
+  }
+  .customer-review-griditem {
+    margin-right: 0rem;
+  }
+  .stylish-axure h2 {
+    color: #fff;
+  }
+  .pricing h2 {
+    font-size: 30px;
+  }
+}

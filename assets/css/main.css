@@ -1,0 +1,663 @@
+/*----------------
+
+Template Name:AXIT Template
+Template URI:
+Author Name:Abdullah Al Foysal
+Author URI: foysalmeazi.github.io/personalportfolio/
+Description: Axit PSD To Html Template
+Version:1.0.0
+
+----------------*/
+
+/*-----------------
+    CSS Index
+    ---------
+
+    0.Google Fonts
+    1.Reusable  Components
+    2.Common CSS
+    3.Hero Section
+    4.Social Share Section
+    5.Transition Effect Section
+    6.Sublist Section
+    7.Standard Picture Section
+    8.Service Section
+    9.Pricing Section
+    10.Customer Review Section
+    11.Stylish Axure Section
+    12.Contact US Section
+    13.Footer Section
+    
+-------------------*/
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,600&family=Raleway:wght@400;600&display=swap");
+
+/* Reusable  Components */
+.hr-row {
+  max-width: 7rem;
+  width: 6.4rem;
+  margin: 2.8rem 0;
+  color: #d1b29b !important;
+  border-top: 1px solid orange;
+}
+/* Reusable  Components End*/
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  line-height: 1.3;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+/* Start Header Section */
+.site-header {
+  background-color: #000000;
+}
+.container {
+  max-width: 110rem;
+  width: 100%;
+  margin: auto;
+}
+.header-next {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  text-align: right;
+}
+.logo img {
+  height: 32px;
+  width: 80px;
+}
+.menu {
+  position: absolute;
+  right: 2.8rem;
+}
+.menu ul {
+  margin: 0 !important;
+}
+.menu ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.menu ul li a:active {
+  color: rgb(18, 14, 226) !important;
+}
+
+/* End Header Section */
+
+/* Start Hero Section */
+
+.hero {
+  height: 64rem;
+  background: url("img/bgHero.png");
+  background-repeat: no-repeat;
+  padding-top: 10.5rem;
+  padding-bottom: 14rem;
+}
+.hero-next {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-img img {
+  height: 6rem;
+  width: 17.8rem;
+  margin-bottom: 3rem;
+}
+.hero-left-grid-item h1 {
+  font-size: 3.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+.hero-left-grid-item hr {
+  color: #fff;
+  width: 7rem;
+  margin-bottom: 4rem;
+}
+.hero-left-grid-item #hero-para {
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 4rem;
+}
+
+.hero-left-grid-item button {
+  border: 1px solid #fff;
+  max-width: 13.5rem;
+  width: 100%;
+  height: 4rem;
+  padding: 0 3rem;
+  font-size: 1.5rem;
+}
+
+.hero-right-grid .contact-form {
+  float: right;
+  text-align: center;
+  background-color: #fff;
+  max-width: 36rem;
+  width: 100%;
+  max-height: 33rem;
+  height: 100%;
+  margin-top: 2rem;
+}
+.contact-form form {
+  line-height: 4.6rem;
+  padding: 3.5rem;
+  padding-bottom: 0;
+}
+.form-title {
+  color: #222;
+  font-size: 20px;
+  padding: 1.6rem 0;
+}
+
+form input[type="text"],
+[type="password"],
+[type="email"] {
+  max-width: 28rem;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submit-btn {
+  float: right;
+  background-color: orange;
+  max-width: 36rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.8rem 0;
+}
+.submit-btn [type="submit"] {
+  background-color: orange;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+/* End Hero Section */
+
+/* Social Share Start */
+.social-share {
+  height: 10.5rem;
+}
+.social-share-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 20px 0;
+}
+.socila-share-grid-item {
+  margin: auto 0;
+}
+.socila-share-grid-item h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.socila-share-grid-item p {
+  font-size: 14px;
+  margin: auto 0;
+  font-family: "Raleway", sans-serif;
+  color: rgb(66, 64, 64);
+}
+
+.socila-share-grid-item li a i {
+  font-size: 28px;
+  color: gray;
+}
+.socila-share-grid-item li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 4rem;
+}
+.socila-share-grid-item ul {
+  margin: auto 0;
+  display: inline;
+  text-align: center;
+  padding-left: 0;
+}
+/* Social Share End */
+
+/* Transition Effect Start */
+.transitioning-effect {
+  background-color: #f5f5f5;
+  padding: 11.5rem 0;
+}
+.transition-effect-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.tre-grid-item {
+  display: flex;
+}
+
+.tab-1-button,
+.tab-2-button,
+.tab-3-button {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 4.5rem 3.2rem;
+  border: none;
+  width: 11rem;
+}
+.tre-all-btn {
+  margin-right: 5rem;
+}
+.trf-right-part-title {
+  font-size: 2rem;
+  color: #000000;
+  opacity: 0.6;
+}
+.trf-right-container {
+  font-size: 14px;
+  padding: 5rem 0;
+}
+.trf-right-container .fp {
+  margin-bottom: 2.8rem;
+}
+.download-btn {
+  margin-top: 5rem;
+}
+.download-btn a {
+  background-color: #ff8b38;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1.2rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.tre-grid-item img {
+  padding: 6rem 10rem;
+}
+/* Transitioning Effect End */
+
+/* Sublist-section Start */
+.sub-list {
+  padding: 10.5rem 0;
+}
+.sublist-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sublist-grid-item {
+  margin-left: 5rem;
+}
+.sublist-grid-item .sl-title {
+  font-size: 20px;
+  color: #ff8b38;
+  letter-spacing: 0.1rem;
+}
+
+.sublist-grid-item .para {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: rgb(66, 64, 64);
+  margin-bottom: 4.5rem;
+}
+.sbr-right {
+  display: flex;
+}
+.sbr-right .image {
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid #ff8b38;
+  border-radius: 50%;
+}
+
+.sbr-right .image img {
+  padding: 1.2rem;
+  max-width: none !important;
+}
+.sbr-right .description {
+  margin-left: 2.5rem;
+}
+.sbr-right .description h5 {
+  margin-bottom: 1.3rem;
+}
+.sbr-right .description p {
+  color: rgb(66, 64, 64);
+}
+.sbr-right .description h5,
+.sbr-right .description p {
+  font-size: 14px;
+}
+#sbr-id {
+  margin-top: 3.5rem;
+}
+
+.sublist-grid-item .para2 {
+  font-size: 14px;
+  color: rgb(66, 64, 64);
+  margin-top: 3rem !important;
+}
+/* Sublist-section End */
+
+/* Standard Picture Section Start*/
+.standard-sec {
+  background-color: #f5f5f5;
+}
+/* Standard Picture Section  End*/
+
+/* Service Section Start */
+.service {
+  padding: 10.3rem 0;
+}
+.service-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.shr-row {
+  margin: 0 auto;
+}
+.service-title-des {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+}
+
+.service-bt-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service-bt {
+  text-align: center;
+  padding: 0 1.2rem;
+}
+.service-bt .image {
+  max-height: 6.5rem;
+  height: 6.2rem;
+  max-width: 6.5rem;
+  width: 6.2rem;
+  border: 0.1rem solid #ff8b38;
+  border-radius: 50%;
+  padding: 1.9rem;
+  margin: 0 auto;
+}
+.service-bt .image img {
+  max-height: 2.5rem;
+  height: 2.2rem;
+  max-width: 2.5rem;
+  width: 2.2rem;
+}
+.service-bt h4 {
+  font-size: 2rem;
+  margin: 2.6rem 0;
+  color: #333333;
+}
+.service-bt p {
+  font-size: 1.4rem;
+  color: rgb(66, 64, 64);
+}
+
+/* Service Section End */
+
+/* Pricing Section Start */
+.pricing {
+  background-color: #f5f5f5;
+  padding: 9.5rem 0;
+}
+.pricing h2 {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.pricing-para {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.pricing .pricing-hr {
+  width: 6.5rem;
+  margin: 2.8rem auto;
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.first-pricing-grid-item {
+  max-width: 38rem;
+  width: 34rem;
+  max-height: 52rem;
+  height: 50rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+.fpg-grid-head {
+  background-color: #333333 !important;
+  border-bottom: 3px solid #ff8b38;
+}
+.fpg-grid-head h4 {
+  font-size: 2rem;
+  padding: 2rem 0;
+  color: #fff;
+}
+.fpg-grid-head hr {
+  color: #000000;
+  margin: 0;
+}
+.fpg-grid-head img {
+  margin: 2.5rem 0;
+}
+.fpg-grid-head p {
+  font-size: 1.4rem;
+  color: rgb(66, 64, 64);
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0;
+}
+
+.spg-text {
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 2.6rem;
+  text-transform: uppercase;
+  color: rgb(66, 64, 64);
+  margin: 0 !important;
+}
+
+.second-pricing-grid-item {
+  max-height: 60rem;
+  height: 55rem !important;
+}
+.mst-popular {
+  background-color: #ff8b38;
+}
+.mst-popular p {
+  padding: 1.2rem 0;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+.first-spg,
+.last-spg {
+  padding-top: 1.6rem;
+}
+.grid-mt {
+  margin-top: 5rem;
+}
+
+/* Pricing Section End */
+
+/* Customer Review */
+.customer-rv-des {
+  text-align: center;
+  margin-bottom: 5rem !important;
+  color: rgb(66, 64, 64);
+}
+.profilewithname {
+  display: flex;
+}
+.customer-review-para {
+  background-color: #f5f5f5;
+  margin-bottom: 2.3rem;
+  font-size: 1.3rem;
+}
+.customer-review-para p {
+  text-align: left;
+  padding: 2rem 1rem;
+}
+.customer-rv {
+  text-align: left !important;
+}
+.profilewithname img {
+  margin-right: 1.2rem;
+}
+.customer-details {
+  margin: auto 0;
+}
+.customer-details h4 {
+  margin: 0;
+  font-size: 2rem;
+}
+.customer-details span {
+  font-size: 1.4rem;
+  text-align: left;
+}
+.customer-review-griditem {
+  margin-right: 11rem;
+}
+
+/* Customer Review End */
+/* Stylish Axure */
+.stylish-axure {
+  text-align: center;
+  background-image: url("img/AxureBg.png");
+  color: #fff;
+  padding: 6rem 0;
+}
+.stylish-axure h2 {
+  font-size: 3.6rem;
+  color: #fff;
+}
+.axure-row {
+  margin: 2.7rem auto;
+}
+.stylish-axure p {
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+.stylish-axure .sty-download-btn {
+  border: 2px solid #fff;
+  padding: 1rem 2.9rem;
+  color: #fff;
+  background: transparent;
+  font-size: 1.5rem;
+}
+/* Stylish Axure End */
+/* Contact US */
+.contact-us-section {
+  padding: 8rem 0;
+}
+.contact-title-des {
+  color: rgb(66, 64, 64);
+  font-size: 1.4rem;
+  text-align: center;
+}
+.contact-hr {
+  margin: 2.5rem auto;
+}
+
+.contact-title-des {
+  margin-bottom: 9rem;
+}
+.contact-us-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3.5rem;
+}
+.contact-us-grid-item form input {
+  display: block;
+}
+.contact-us-grid-item form input[type="text"],
+input[type="email"] {
+  max-width: 100% !important;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+}
+.cts-grid-item-2 form {
+  height: 100%;
+}
+.cts-grid-item-2 textarea {
+  max-width: 100% !important;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+  height: 100%;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: gray;
+  margin-left: 6rem;
+}
+
+.contact-send-btn {
+  text-align: center;
+}
+
+.contact-send-btn a {
+  border-radius: 3px !important;
+  font-size: 1.4rem;
+  padding: 1.2rem 3rem;
+}
+/* Contact US end */
+/* Footer Start */
+.footer {
+  background-color: #000000;
+  padding-top: 2rem;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+}
+.footer ul li {
+  list-style-type: none;
+  margin-right: 2.5rem;
+}
+.footer ul li:nth-child(1) {
+  margin-left: 0;
+}
+.footer ul li:nth-child(7) {
+  margin-right: 0;
+}
+.footer ul li a {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.footer .copyright {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  padding: 1.3rem 0;
+}
+
+/* Footer section End */
